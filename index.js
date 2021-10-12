@@ -25,10 +25,12 @@ let production = () => {
     setTimeout(() => {
       console.log(`${stocks.liquid[0]} & ${stocks.liquid[1]} have been added.`);
     }, 1000);
+
     setTimeout(() => {
       console.log(
         `The ${stocks.holder[0]} was used as container and the ${stocks.Fruits[0]} icecream was placed on top.`
       );
+
       setTimeout(() => {
         console.log(`${stocks.Fruits[0]} was added as toppings.`);
       }, 1000);
